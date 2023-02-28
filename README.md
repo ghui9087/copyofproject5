@@ -22,6 +22,9 @@
   </h3><li>
     One content the map<"Pointer Course Object, vector<"pointer student object">">
   </li><li>
+    This is useless but if their is more than CSS this will help <bk>
+    map<"department, map<"Pointer Course Object, vector<"pointer student object">">">
+  </li><li>
     A String that storged the University name
   </li><bk></p>
 <p><h3>

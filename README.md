@@ -9,7 +9,7 @@
 
 
 <hr><h2>
-  This is place for planning will be delete once we are read to upload
+  This is place for planning will be delete once we are ready to upload
 </h2><p>
   So I am thinking that we can have structure like this
 <bk></p><p><h3>

@@ -17,9 +17,9 @@
   </h3><li>
     Has two Unorder_map
   </li><li>
-    One content the map<"Course number, Course object">
+    One content the map<"Course number, Pointer Course object">
   </li><li>
-    One is student map<"Student ID(int), Student object">
+    One is student map<"Student ID(int), Pointer Student object">
   </li><li>
     A String that storged the University name
   </li><bk></p>
@@ -32,13 +32,13 @@
   </li><li>
     One String for Course Information
   </li><li>
-    Map will be like map<"Student ID(int), Student object">
+    Map will be like map<"Student ID(int), Pointer Student object">
   </li><bk></p>
 <p>
   <h3>
    Student Class:
   </h3><li>
-    Has one order map that content map<"Course number, Course object">
+    Has one order map that content map<"Course number, Pointer Course object">
   </li><li>
     One integer for student ID
   </li><li>

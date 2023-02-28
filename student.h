@@ -3,6 +3,7 @@
 
 #include <fstream>
 #include <map>
+#include <set>
 #include <string>
 #include <vector>
 
@@ -18,6 +19,9 @@ class Student {
   friend ostream &operator<<(ostream &out, const Student &student);
 
 private:
+  set<string> courses;
+  string name;
+  int ID;
 };
 
 #endif

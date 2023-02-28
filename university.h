@@ -3,15 +3,20 @@
 
 #include "course.h"
 #include "student.h"
-#include <map>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
 class University {
   friend class EnrollmentSystem;
+  friend class Course;
+  friend class Student;
 
 private:
+  string name;
+  unordered_map<int, Student *> students;
+  unordered_map<string, Course *> courses;
 };
 
 #endif

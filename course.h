@@ -18,6 +18,9 @@ class Course {
   friend ostream &operator<<(ostream &out, const Course &course);
 
 private:
+  set<int> students;
+  string description;
+  string ID;
 };
 
 #endif

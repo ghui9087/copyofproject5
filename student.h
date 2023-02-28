@@ -13,7 +13,6 @@ using namespace std;
 class Course;
 
 class Student {
-  //Do we need friend to all class(.h) at all class(.h)?
   friend class Course;
   friend class University;
   friend class EnrollmentSystem;

@@ -22,7 +22,13 @@ private:
   set<string> courses;
   string name;
   int ID;
+  bool dropCourse(const string &courseNumber);
+  bool addCourse(const string &courseNumber);
+  bool isInCourse(const string &courseNumber) const;
+  string getEnrolledCourses() const;
+  
 
+public:
   explicit Student(int studentID, string studentName);
   // explicit Student(const Student & otr);
   ~Student();

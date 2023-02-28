@@ -22,9 +22,13 @@ private:
   set<int> students;
   string description;
   string ID;
+  string getCourseTitle();
+  string getClassListByLastName() const;
+  string getClassListByID() const;
 
+public:
   // I do not thinking that copy construct is need for this
-  explicit Course(int courseID);
+  explicit Course(string courseID, string description);
   // explicit Course(const Course &otr);
   ~Course();
 

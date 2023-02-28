@@ -13,10 +13,19 @@ using namespace std;
 class Course;
 
 class Student {
+  //Do we need friend to all class(.h) at all class(.h)?
   friend class Course;
   friend class University;
   friend class EnrollmentSystem;
   friend ostream &operator<<(ostream &out, const Student &student);
+
+public:
+  explicit Student(int studentID, string studentName);
+  //explicit Student(const Student & otr);
+  ~Student();
+
+  int     getStudentID();
+  string  getStudentName();
 
 private:
   set<string> courses;

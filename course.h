@@ -21,14 +21,14 @@ private:
   // values
   set<int> students;
   string description;
-  int ID;
+  string ID;
 
   // I do not thinking that copy construct is need for this
   explicit Course(int courseID);
   // explicit Course(const Course &otr);
   ~Course();
 
-  int getCourseID();
+  string getCourseID();
   bool setDescrip(string descripition);
   string getDescrip();
 };

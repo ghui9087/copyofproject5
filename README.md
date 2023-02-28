@@ -7,7 +7,7 @@
 </p>
 
 
-
+<hr>
 <h2>
 This is place for planning
 </h2>

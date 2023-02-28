@@ -20,5 +20,5 @@ Has two Unorder_map. One content the map<Course number, Course object>. One is s
 </li></p><p><h3>
   Course class:
 </h3><li>
-  Has one Unorder_map, one integer for Course Number, One String for Course Information. Map will be like map<Student ID(int), Student object>
+  Has one Unorder_map, one integer for Course Number, One String for Course Information. Map will be like map/<Student ID(int), Student object>
 </li></p><p>

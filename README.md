@@ -12,7 +12,7 @@
 This is place for planning
 </h2>
 <p>
-So I am thinking that we can have struck like this
+So I am thinking that we can have structure like this
 </p><p><h3>
 University class: 
 </h3><li>
@@ -24,5 +24,11 @@ University class:
 </li></p><p><h3>
   Course class:
 </h3><li>
-  Has one Unorder_map, one integer for Course Number, One String for Course Information. Map will be like map<"Student ID(int), Student object">
+  Has one Unorder_map
+</li><li>
+  One integer for Course Number
+  </li><li>
+  One String for Course Information
+</li><li>
+  Map will be like map<"Student ID(int), Student object">
 </li></p><p>

@@ -18,6 +18,7 @@ class Course {
   friend ostream &operator<<(ostream &out, const Course &course);
 
 private:
+  //I am not sure what you mean is set for student
   set<int> students;
   string description;
   string ID;

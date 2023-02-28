@@ -11,6 +11,38 @@
 <hr><h2>
   This is place for planning will be delete once we are ready to upload
 </h2><p>
+  I will not delete the old just in case we want looking them back but I will adding the line to separate
+</p><hr>
+<p><h3>
+  Update structure to:
+  </h3><li>
+   I am not going to adding like getStudentID() something like this
+  </li><bk></p><p><h3>
+  University class: 
+  </h3><li>
+    One content the map<"Pointer Course Object, vector<"pointer student object">">
+  </li><li>
+    A String that storged the University name
+  </li><bk></p>
+<p><h3>
+  Course class:
+  </h3><li>
+    One integer for Course Number
+  </li><li>
+    One String for Course Information
+  </li><bk></p>
+<p>
+  <h3>
+   Student Class:
+  </h3><li>
+    One integer for student ID
+  </li><li>
+    One String for Student Name
+  </li>
+  <bk>
+</p>
+  <hr>
+</p><p><bk>
   So I am thinking that we can have structure like this
 <bk></p><p><h3>
   University class: 

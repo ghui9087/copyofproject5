@@ -35,3 +35,14 @@
     Map will be like map<"Student ID(int), Student object">
   </li><bk></p>
 <p>
+  <h3>
+   Student Class:
+  </h3><li>
+    Has one order map that content map<"Course number, Course object">
+  </li><li>
+    One integer for student ID
+  </li><li>
+    One String for Student Name
+  </li>
+  <bk>
+</p>

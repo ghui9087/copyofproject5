@@ -26,7 +26,7 @@
 <p><h3>
   Course class:
   </h3><li>
-    Has one Unorder_map
+    Has one Order_map
   </li><li>
     One integer for Course Number
   </li><li>

@@ -15,7 +15,9 @@
 </p><hr>
 <p><h3>
   Update structure to:
-  </h3><bk></p><p><h3>
+  </h3><li>
+   I am not going to adding like getStudentID() something like this
+  </li><bk></p><p><h3>
   University class: 
   </h3><li>
     One content the map<"Pointer Course Object, vector<"pointer student object">">

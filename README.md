@@ -18,7 +18,7 @@
   </h3><bk></p><p><h3>
   University class: 
   </h3><li>
-    One content the map<"Pointer Course Object, vector<pointer student object>">
+    One content the map<"Pointer Course Object, vector<"pointer student object">">
   </li><li>
     A String that storged the University name
   </li><bk></p>

@@ -17,11 +17,20 @@ class Course {
   friend class EnrollmentSystem;
   friend ostream &operator<<(ostream &out, const Course &course);
 
+public:
+//I do not thinking that copy construct is need for this 
+  explicit Course(int courseID);
+  //explicit Course(const Course &otr);
+  ~Course();
+
+  int getCourseID();
+  bool setDescrip(string descripition);
+  string getDescrip();
+
 private:
-  //I am not sure what you mean is set for student
   set<int> students;
   string description;
-  string ID;
+  int ID;
 };
 
 #endif

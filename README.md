@@ -16,7 +16,11 @@ So I am thinking that we can have struck like this
 </p><p><h3>
 University class: 
 </h3><li>
-Has two Unorder_map. One content the map<Course number, Course object>. One is student map<Student ID(int), Student object>
+  Has two Unorder_map. 
+</li><li>
+  One content the map<"Course number, Course object">.
+</li><li>
+  One is student map<"Student ID(int), Student object">
 </li></p><p><h3>
   Course class:
 </h3><li>

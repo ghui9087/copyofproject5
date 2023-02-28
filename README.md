@@ -8,28 +8,30 @@
 </p>
 
 
-<hr>
-<h2>
-This is place for planning
-</h2>
-<p>
-So I am thinking that we can have structure like this
-</p><bk><p><h3>
-University class: 
-</h3><li>
-  Has two Unorder_map. 
-</li><li>
-  One content the map<"Course number, Course object">.
-</li><li>
-  One is student map<"Student ID(int), Student object">
-</li></p><p><h3>
-  Course class:
-</h3><li>
-  Has one Unorder_map
-</li><li>
-  One integer for Course Number
+<hr><h2>
+  This is place for planning will be delete once we are read to upload
+</h2><p>
+  So I am thinking that we can have structure like this
+<bk></p><p><h3>
+  University class: 
+  </h3><li>
+    Has two Unorder_map
   </li><li>
-  One String for Course Information
-</li><li>
-  Map will be like map<"Student ID(int), Student object">
-</li></p><p>
+    One content the map<"Course number, Course object">
+  </li><li>
+    One is student map<"Student ID(int), Student object">
+  </li><li>
+    A String that storged the University name
+  </li><bk></p>
+<p><h3>
+  Course class:
+  </h3><li>
+    Has one Unorder_map
+  </li><li>
+    One integer for Course Number
+  </li><li>
+    One String for Course Information
+  </li><li>
+    Map will be like map<"Student ID(int), Student object">
+  </li><bk></p>
+<p>

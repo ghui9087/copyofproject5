@@ -17,6 +17,9 @@ private:
   string name;
   unordered_map<int, Student *> students;
   unordered_map<string, Course *> courses;
+  
+  bool addToCatalog(Course* course);
+  bool addToStudentlist(Student* student);
 };
 
 #endif

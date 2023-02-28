@@ -18,18 +18,17 @@ class Student {
   friend class EnrollmentSystem;
   friend ostream &operator<<(ostream &out, const Student &student);
 
-public:
-  explicit Student(int studentID, string studentName);
-  //explicit Student(const Student & otr);
-  ~Student();
-
-  int     getStudentID();
-  string  getStudentName();
-
 private:
   set<string> courses;
   string name;
   int ID;
+
+  explicit Student(int studentID, string studentName);
+  // explicit Student(const Student & otr);
+  ~Student();
+
+  int getStudentID();
+  string getStudentName();
 };
 
 #endif

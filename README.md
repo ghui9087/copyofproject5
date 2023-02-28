@@ -16,7 +16,7 @@
 <p><h3>
   Update structure to:
   </h3><li>
-   I am not going to adding like getStudentID() something like this
+   I am not going to adding like getStudentID() something like this over here
   </li><bk></p><p><h3>
   University class: 
   </h3><li>

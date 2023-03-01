@@ -22,19 +22,30 @@ private:
   set<string> courses;
   string name;
   int ID;
+
+  // Only removes the string from the set of courses,
+  // does not remove the studentID from the course object
   bool dropCourse(const string &courseNumber);
+
+  // Only add the string to the set of courses,
+  // does not add the studentID to the course object
   bool addCourse(const string &courseNumber);
+
+  // Only checks if the string is in the set of courses
+  // Does not check if the studentID is present in the course object
   bool isInCourse(const string &courseNumber) const;
+
+  // Returns every element in the student's courses set
+  // seperated by a comma ", "
   string getEnrolledCourses() const;
-  
+
+  // Returns name of the student
+  string getStudentName();
 
 public:
   explicit Student(int studentID, string studentName);
   // explicit Student(const Student & otr);
   ~Student();
-
-  int getStudentID();
-  string getStudentName();
 };
 
 #endif

@@ -20,21 +20,32 @@ class Course {
 private:
   // values
   set<int> students;
-  string description;
+  string title;
   string ID;
-  string getCourseTitle();
-  string getClassListByLastName() const;
-  string getClassListByID() const;
 
 public:
+  explicit Course(string courseID, string title);
+
   // I do not thinking that copy construct is need for this
-  explicit Course(string courseID, string description);
   // explicit Course(const Course &otr);
   ~Course();
 
-  string getCourseID();
-  bool setDescrip(string descripition);
-  string getDescrip();
+  // Change the title of the course
+  // Returns true if successful
+  bool setTitle(string title);
+
+  // returns title
+  string getTitle();
+
+  // returns the list of students,
+  // organized alphabetically by last name
+  // seperated by commas
+  string getClassListByLastName() const;
+
+  // returns the list of students,
+  // organized numerically by studentID
+  // seperated by commas
+  string getClassListByID() const;
 };
 
 #endif

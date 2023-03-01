@@ -40,6 +40,19 @@ private:
   // seperated by commas
   string getClassListByID() const;
 
+  // adds studentID to the set of students
+  // does not add courseID to the student object
+  // returns true if successful
+  bool addStudent(int studentID);
+
+  // removes studentID from the set of students
+  // does not remove courseID from the student object
+  // returns true if successful
+  bool dropStudent(int studentID);
+
+  // returns true if studentID is in the set of students
+  bool isInCourse(int studentID);
+
 public:
   explicit Course(string courseID, string title);
   // No copy constructor needed

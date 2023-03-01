@@ -67,7 +67,6 @@ private:
 public:
   explicit University(string name);
   // No need for copy constructor
-  //  explicit University(const University & otr);
   ~University();
 };
 

@@ -23,13 +23,6 @@ private:
   string title;
   string ID;
 
-public:
-  explicit Course(string courseID, string title);
-
-  // I do not thinking that copy construct is need for this
-  // explicit Course(const Course &otr);
-  ~Course();
-
   // Change the title of the course
   // Returns true if successful
   bool setTitle(string title);
@@ -46,6 +39,11 @@ public:
   // organized numerically by studentID
   // seperated by commas
   string getClassListByID() const;
+
+public:
+  explicit Course(string courseID, string title);
+  // No copy constructor needed
+  ~Course();
 };
 
 #endif

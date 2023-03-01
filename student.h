@@ -44,7 +44,7 @@ private:
 
 public:
   explicit Student(int studentID, string studentName);
-  // explicit Student(const Student & otr);
+  // No need for copy constructor
   ~Student();
 };
 

@@ -20,7 +20,8 @@ class Student {
 
 private:
   set<string> courses;
-  string name;
+  string lastName;
+  string firstName;
   int ID;
 
   // Only removes the string from the set of courses,
@@ -39,11 +40,11 @@ private:
   // seperated by a comma ", "
   string getEnrolledCourses() const;
 
-  // Returns name of the student
+  // Returns name of the student, first last
   string getStudentName();
 
 public:
-  explicit Student(int studentID, string studentName);
+  explicit Student(int studentID, string firstName, string lastName);
   // No need for copy constructor
   ~Student();
 };
